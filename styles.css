@@ -49,6 +49,7 @@ nav.main-nav ul li p {
   margin-left: 8px;
   font-size: 16px;
   margin-bottom: 0;
+  margin-right: 32px;
 }
 .group li a.secondary {
   font-size: 18px;
@@ -72,7 +73,8 @@ nav.main-nav ul li p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 65vh;
+  height: 70vh;
+  background-position: bottom;
 }
 .hero .title {
   position: absolute;
@@ -520,6 +522,15 @@ ul.social img {
   flex-direction: row;
 }
 
+ul.cosmetic li {
+  font-size: 24px;
+  padding: 8px 0;
+}
+ul.general li {
+  font-size: 24px;
+  padding: 8px 0;
+}
+
 
 
 h1 {
@@ -640,6 +651,7 @@ p {
     .group li span {
       font-size: 24px;
       margin-bottom: 16px;
+      margin-right: 24px;
     }
     .group li a img {
       height: 24px;
